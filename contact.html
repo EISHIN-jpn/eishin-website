@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>お問い合わせ | 合同会社 詠進</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-logo">
+      <img src="images/logo.png" alt="EISHIN.llc ロゴ" class="logo-small">
+    </div>
+    <ul class="navbar-menu">
+      <li><a href="index.html">ホーム</a></li>
+      <li><a href="works.html">施工事例</a></li>
+      <li><a href="about.html">会社概要</a></li>
+      <li><a href="blog.html">ブログ</a></li>
+      <li><a href="recruit.html">従業員募集</a></li>
+      <li><a href="contact.html">お問い合わせ</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section class="section-title">
+      <h1>お問い合わせ</h1>
+    </section>
+    <section class="contact-block">
+      <p>
+        ご質問・ご相談・ご応募は、以下のフォームまたはメール・お電話よりお気軽にご連絡ください。
+      </p>
+      <form class="contact-form" action="mailto:eishin.llc@icloud.com" method="post" enctype="text/plain">
+        <label for="name">お名前</label>
+        <input type="text" id="name" name="お名前" required>
+        <label for="email">メールアドレス</label>
+        <input type="email" id="email" name="メールアドレス" required>
+        <label for="message">お問い合わせ内容</label>
+        <textarea id="message" name="お問い合わせ内容" rows="6" required></textarea>
+        <button type="submit">送信</button>
+      </form>
+      <div class="contact-info">
+        <p>
+          <strong>メール：</strong>
+          <a href="mailto:eishin.llc@icloud.com">eishin.llc@icloud.com</a><br>
+          <strong>電話：</strong>
+          <a href="tel:07054530835">070-5453-0835</a>
+        </p>
+      </div>
+      <p class="contact-note">
+        ※フォーム送信はご利用の環境により正常に動作しない場合がございます。<br>
+        その際は直接メールまたはお電話にてご連絡ください。
+      </p>
+    </section>
+  <footer>
+    <div class="footer-logo">
+      <img src="images/logo.png" alt="EISHIN.llc ロゴ" class="logo-footer">
+    </div>
+    <p>&copy; 2023 合同会社 詠進</p>
+  </footer>
+</body>
+</html>
